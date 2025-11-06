@@ -1,0 +1,145 @@
+body {
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    color: black;
+    text-shadow: 2px 2px 4px #ffffff;
+    margin-top: 20px;
+    font-size: 35px;
+}
+.carousel {
+
+    margin: 100px auto;
+    width: 80%;
+    border: 5px solid blueviolet;
+    display: flex;
+    overflow-x: auto;
+    border-radius: 15px;
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 10s infinite linear;
+    padding-right: 1em;
+}
+
+.card {
+    border: 2px solid black;
+    flex: 0 0 5em;
+    height: 0.9em;
+    padding: 19px;
+    background: aquamarine;
+    font-size: 2rem;
+    font-family: cursive;
+    border-radius: .2em;
+    text-align: center;
+    align-content: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
+}
+
+.items ul li{
+    list-style: none;
+}
+
+.items {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-direction: row;
+    font-family: cursive;
+    font-size: 25px;
+    flex: 1;
+    padding: 10px 10px;
+    
+    
+}
+
+.items h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: aquamarine;
+    text-shadow: 2px 2px 4px black;
+    
+}
+
+.item-1 {
+    background-color: whitesmoke;
+    border: 5px solid blueviolet;
+    border-radius: 3rem;
+        padding: 20px 20px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+}
+
+.item-2 {
+    background-color: whitesmoke;
+    border: 5px solid blueviolet;
+    border-radius: 3rem;
+        padding: 20px 20px;
+margin-top: 2rem;
+        margin-bottom: 2rem;
+}
+
+.item-3 {
+    background-color: whitesmoke;
+    border: 5px solid blueviolet;
+    border-radius: 3rem;
+        padding: 20px 20px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+}
+
+.item-4 {
+    background-color: whitesmoke;
+    border: 5px solid blueviolet;
+    border-radius: 3rem;    
+        padding: 20px 20px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+}
+
+.item-5 {
+    background-color: whitesmoke;
+    border: 5px solid blueviolet;
+    border-radius: 3rem;
+        padding: 20px 20px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+}
+
+.item-6 {
+    background-color: whitesmoke;
+    border: 5px solid blueviolet;
+    border-radius: 3rem;
+        padding: 20px 20px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+}

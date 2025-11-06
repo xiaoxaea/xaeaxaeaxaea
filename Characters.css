@@ -1,0 +1,119 @@
+body {
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headershi {
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    color: black;
+    text-shadow: 2px 2px 4px #ffffff;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.carousel {
+
+    margin: 100px auto;
+    width: 80%;
+    border: 5px solid blueviolet;
+    display: flex;
+    overflow-x: auto;
+    border-radius: 15px;
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 10s infinite linear;
+    padding-right: 1em;
+}
+
+.card {
+    border: 2px solid black;
+    flex: 0 0 5em;
+    height: 0.9em;
+    padding: 19px;
+    background: aquamarine;
+    font-size: 2rem;
+    font-family: cursive;
+    border-radius: .2em;
+    text-align: center;
+    align-content: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
+}
+
+.frieren {
+   
+    margin: 20px;
+    border: 5px solid lime;
+    border-radius: 2em;
+}
+
+
+img {
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 25px;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 15px;
+    border: 5px solid black;
+    flex: 1;
+    display: flex;
+}
+
+.wrapper {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+
+
+.intro {
+    flex: 1;
+    font-family: cursive;
+    padding: 10px 50px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+
+
+
+.profile6 {
+    margin-left: 30px;
+    padding: 25px 25px;
+    margin-right: 70px;
+}
+
+.profile7 {
+    margin-left: 10px;
+    margin-right: 27px;
+}
+

@@ -1,0 +1,113 @@
+body {
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    color: black;
+    text-shadow: 2px 2px 4px #ffffff;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.carousel {
+
+    margin: 100px auto;
+    width: 80%;
+    border: 5px solid blueviolet;
+    display: flex;
+    overflow-x: auto;
+    border-radius: 15px;
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 10s infinite linear;
+    padding-right: 1em;
+}
+
+.card {
+    border: 2px solid black;
+    flex: 0 0 5em;
+    height: 0.9em;
+    padding: 19px;
+    background: aquamarine;
+    font-size: 2rem;
+    font-family: cursive;
+    border-radius: .2em;
+    text-align: center;
+    align-content: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
+}
+
+
+.general_classes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 1em;
+    margin: 1rem;
+    font-family: cursive;
+    margin: 0px 350px;
+    padding: 100px 50px;
+}
+
+.general_classes h2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+    flex: 1;
+}
+
+.class-1 {
+    border: 5px dashed black;
+    background-color: purple;
+}
+.class-2 {
+    border: 5px dashed black;
+    background-color: greenyellow;
+}
+.class-3 {
+    border: 5px dashed black;
+    background-color: slateblue;
+}
+.class-4 {
+    border: 5px dashed black;
+    background-color: slategray;
+}
+.class-5 {
+    border: 5px dashed black;
+    background-color: crimson;
+}
+.class-6 {
+    border: 5px dashed black;
+    background-color: hotpink;
+}
+
+.general_classes {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}

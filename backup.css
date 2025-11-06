@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+.main-width {
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.frieren {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frieren header .logo h2 a {
+    display: block;
+    font-size: 60px;
+    font-weight: 600;
+    text-decoration: none;
+    color: aquamarine;
+    font-family: cursive;
+}
+
+.frieren header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blueviolet;
+    margin-left: 80px;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+    text-shadow: 2px 2px 4px black;
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus {
+    border-bottom: 2px solid cyan;
+}
+
+nav ul li.active a {
+    border-bottom: 2px solid white;
+
+}
+
+
+
+.frieren_trailer {
+    display: flex;
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+}   
+
+.fritrailer {
+    border: 5px solid cyan;
+    width: 50%;
+    border-radius: 3em;
+}
+
+.text {
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 3rem;
+    border: 5px solid aquamarine;
+}
+
+.text h2 {
+    font-size: 30px;
+    margin-left: 1.3rem;
+    line-height: 1.5;
+}
+
+.text h3 {
+    font-size: 18px;
+    line-height: 1.7;
+}
+.poster img {
+    display: flex;
+    width: 70%;
+    border-radius: 2em;
+    float: right;
+}
+
+.poster2 img {
+    display: flex;
+    width: 60%;
+    border-radius: 2em;
+    margin-left: 4rem;
+}
+
+
+
